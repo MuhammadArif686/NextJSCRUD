@@ -1,10 +1,11 @@
-import Navbar from "./navbar";
+//import component Navbar
+import Navbar from './navbar'
 
-export default function Layout({ children }){
-    return(
-        <>
-            <Navbar/>
-            <main>{children}</main>
-        </>
-    )
+export default function Layout({ children }) {
+  return (
+    <>
+      <Navbar />
+      <main>{children}</main>
+    </>
+  )
 }
